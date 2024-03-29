@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 4 - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- heading for the website -->
+  <h1 class="text-center mt-3 pt-4">Groove Fusion</h1>
+  <!-- container for the rest of the content -->
+  <div class="container p-0 border shadow parent_container" style="height: 70vh;">
+    <!-- navbar of the website -->
+    <nav class="customize_nav navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="dates.html">Schedule</a>
+            <a class="nav-link" href="location.html">Location</a>
+            <a class="nav-link" href="performers.html">Performers</a>
+            <a class="nav-link" href="tickets.html">Tickets</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content of the home page -->
+    <div class="row">
+      <div class="col-lg-6 row p-0">
+        <!-- title of the page -->
+        <div class="col-12 text-center">
+          <h2 class="mt-5 pt-5">Music Festival</h2>
+        </div>
+        <div class="col-12 row">
+          <!-- displays event start date -->
+          <div class="col-4 mt-5 mb-0 text-center">
+            <h2>Starts <br> 12th <br> April</h2>
+          </div>
+          <!-- displays more information regarding the festival -->
+          <div class="col-8 mx-auto">
+            <p>
+              <b> Welcome to the Groove Fest! </b> <br> <br>
+
+              Groove Fest is a dynamic music festival that brings together music lovers for a weekend of unforgettable
+              performances, vibrant beats, and endless fun. Join us as we celebrate the magic of music with an exciting
+              lineup of artists from various genres, promising an electrifying experience for all attendees. Get ready
+              to groove to the rhythm and create lasting memories at Groove Fest!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- displays an image for visuals -->
+      <div class="col-lg-6 my-5 py-5 pe-5 position-relative">
+        <img class="img-fluid main_page_image"
+          src="./images/homepageImg.jpeg">
+        <div class="h-25 w-25 rounded-circle position-absolute top-50 end-0 text-center customized_tickets_btn" style="color: white; background-color: hsl(16.62deg 98.98% 61.37%) !important;">
+          <h4 class="py-lg-4 my-lg-1 py-md-4 my-md-3 ps-2 pe-3"><a href="tickets.html">Tickets!</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

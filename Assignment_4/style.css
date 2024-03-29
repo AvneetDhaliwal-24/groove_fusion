@@ -1,0 +1,302 @@
+/* sets the background color, font color, font-weight and font size with these two classes */
+.customize_nav,
+.customize_btn {
+    background-color: hsl(16.62deg 98.98% 61.37%) !important;
+    color: white !important;
+    font-weight: 300;
+    font-size: 2vh;
+}
+
+/* style h1 element */
+h1 {
+    color: hsl(16.62deg 98.98% 61.37%) !important;
+    font-weight: bold;
+    font-size: 7vh;
+}
+
+/* styles h2 element */
+h2 {
+    color: hsl(16.62deg 98.98% 61.37%) !important;
+    font-size: 4.5vh;
+}
+
+/* styles the active tab on the performer page */
+.customize_tabs.active {
+    background-color: hsl(16.62deg 98.98% 61.37%) !important;
+    color: white !important;
+}
+
+/* styles the ticket button on home page */
+.customized_tickets_btn a {
+    font-size: 4vh;
+    text-decoration: none;
+    color: white;
+}
+
+/* sets the background color */
+body {
+    background-color: #CFE8EF;
+}
+
+/* sets background color to white */
+.parent_container {
+    background-color: white;
+}
+
+/* hover event on ticket link on home page */
+.customized_tickets_btn:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+/* sets the font color */
+.customized_time,
+.customized_headings,
+.customize_tabs,
+.customized_color,
+.customize_performer_cards h3 {
+    color: hsl(16.62deg 98.98% 61.37%) !important;
+}
+
+/* styles the performer images on performers page */
+.customized_performer_image {
+    height: 300px !important;
+    width: 100% !important;
+    margin-top: 25px !important;
+}
+
+
+/* media queries for screen size with maximum width 480px */
+@media only screen and (max-width: 480px) {
+    /* sets the height and margin of the parent container */
+    .parent_container {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        height: auto !important;
+    }
+
+    /* sets the font size of navigation bar */
+    .parent_container>nav {
+        font-size: 100% !important;
+    }
+
+    /* sets the spacing of the h2 element of div in parent container class */
+    .parent_container div h2 {
+        padding-top: 0px !important;
+        margin-top: 3% !important;
+    }
+
+    /* styles the image on main page */
+    .main_page_image {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* styles the ticket link on main page */
+    .customized_tickets_btn h4 a {
+        font-size: 100% !important;
+        text-align: center;
+    }
+
+    .customized_tickets_btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 24% !important;
+        width: 26% !important;
+    }
+
+    /* sets the spacing on schedule page */
+    .dates_cont,
+    .dates_cont>div {
+        padding: 0px !important;
+    }
+
+    /* sets spacing on location page */
+    .location_info>div {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    /* styles and sets the spacing of map on locaiton page */
+    iframe {
+        padding: 1% !important;
+        height: 100% !important;
+    }
+
+    /* sets the spacing for performer cards on performers page */
+    .customize_performer_cards {
+        margin-top: 2% !important;
+        margin-bottom: 2% !important
+    }
+
+}
+
+/* media queries for screen size with minimum width 481px and maximum width 635px */
+@media only screen and (min-width: 481px) and (max-width: 635px) {
+    .parent_container {
+        width: 95% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+
+    .main_page_image {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        padding: 0px !important;
+        width: 95% !important;
+    }
+
+    .customized_tickets_btn h4 a {
+        font-size: 100% !important;
+        text-align: center;
+    }
+
+    .customized_tickets_btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 20% !important;
+        width: 22% !important;
+        margin-right: 2.3%;
+    }
+
+    .customize_performer_cards {
+        margin-top: 2% !important;
+        margin-bottom: 2% !important
+    }
+
+
+    .location_info>div {
+        margin: 0px !important;
+        padding: 1% !important;
+    }
+
+    iframe {
+        padding: 1% !important;
+        height: 100% !important;
+    }
+}
+
+/* media queries for screen size with minimum width 636px and maximum width 992px */
+@media only screen and (min-width: 636px) and (max-width: 992px) {
+    .parent_container {
+        width: 95% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+
+    .main_page_image {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        padding: 0px !important;
+        width: 95% !important;
+    }
+
+    .customized_tickets_btn h4 a {
+        font-size: 100% !important;
+        text-align: center;
+    }
+
+    .customized_tickets_btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 17% !important;
+        height: 19% !important;
+        margin-right: 2.3%;
+    }
+
+    .customize_performer_cards {
+        margin-top: 2% !important;
+        margin-bottom: 2% !important
+    }
+
+    .location_info>div {
+        margin: 0px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+
+    iframe {
+        padding: 1% !important;
+        height: 100% !important;
+    }
+}
+
+/* media queries for screen size with minimum width 993px and maximum width 1388px */
+@media only screen and (min-width: 993px) and (max-width: 1388px) {
+    .parent_container {
+        width: 95% !important;
+        height: auto !important;
+        margin: auto !important;
+        padding-bottom: 1.5% !important;
+    }
+
+    .main_page_image {
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        padding: 0px !important;
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+
+    .customized_tickets_btn h4 a {
+        font-size: 100% !important;
+        text-align: center;
+    }
+
+    .customized_tickets_btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 20% !important;
+        height: 22% !important;
+        margin-right: 2.3%;
+    }
+
+    .location_info>div {
+        margin: 0px !important;
+        padding: 1% !important;
+    }
+
+    .location_info~div {
+        padding: 1% !important;
+    }
+
+    iframe {
+        padding-right: 1% !important;
+        height: 100% !important;
+        border: 0px !important
+    }
+}
+
+/* media queries for screen size with minimum width 1389px */
+@media only screen and (min-width: 1389px) {
+    .parent_container {
+        width: 95% !important;
+        height: auto !important;
+        margin: auto !important;
+        padding-bottom: 1.5% !important;
+    }
+
+
+    .customized_tickets_btn h4 a {
+        font-size: 100% !important;
+        text-align: center;
+    }
+
+
+    .customized_tickets_btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 18% !important;
+        height: 20% !important;
+        margin-right: 2.3%;
+    }
+}
